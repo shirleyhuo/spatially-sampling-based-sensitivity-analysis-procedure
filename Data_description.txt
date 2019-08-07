@@ -1,0 +1,11 @@
+Two vegetation types: veg7(grassland) and veg11(forest)
+Two variables: flh (flux of latent heat); gpp(gross primary production)
+
+5pa, 10pa, 20pa means the ratio of total grids; all means all grids
+
+When opens file, for example, objflhveg7_all_paras_240.txt
+You will see 8361 rows and 240 columns. 
+8361 is the total number of veg7 grids, 240 is the total parameter sample number.
+The value in the file represents RMSE.
+
+For example, values in the first row means the 240 RMSE corresponding to the 240 parameter samples.
